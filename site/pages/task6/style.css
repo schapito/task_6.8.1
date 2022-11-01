@@ -1,0 +1,96 @@
+#trafficLight1, #trafficLight2, #trafficLight3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: black;
+    z-index: 1;
+    position: absolute;
+    left: 126px;
+  }
+
+  #TrafficLight {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 150px);
+  }
+
+  #trafficlihgtBox1, #trafficlihgtBox2, #trafficlihgtBox3 {
+    width: 400px;
+    height: 179px;
+    background-image: url(../../image/trafficlight.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+  }
+
+  #trafficLight1 {
+    top: 11px;
+   
+  }
+
+  #trafficlihgtBox1 {
+    top: 0;
+  }
+
+  #trafficLight2 {
+    top: 190px;
+  }
+
+  #trafficlihgtBox2 {
+    top: 179px;
+  }
+
+  #trafficLight3 {
+    top: 368px;
+  }
+
+  #trafficlihgtBox3 {
+    top: 358px;
+  }
+
+  header {
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    top: 20px;
+}
+
+html body {
+  background-color: rgb(209, 209, 209);
+  color: rgb(31, 31, 31);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  top: 20px;
+}
+
+.copyright {
+  color:darkgray;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer .links > a {
+  color: grey;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;}
+
+  footer {
+    padding-top: 140px;
+    padding-bottom: 60px;
+    text-align: center;
+}

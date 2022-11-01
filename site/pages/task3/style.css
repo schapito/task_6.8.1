@@ -1,0 +1,53 @@
+#trafficLight{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 150px);
+    border-radius: 50%;
+    background-color: black;
+  }
+
+  header {
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    top: 20px;
+}
+
+html body {
+  background-color: rgb(209, 209, 209);
+  color: rgb(31, 31, 31);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  top: -3px;
+}
+
+.copyright {
+  color:darkgray;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer .links > a {
+  color: grey;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;}
+
+  footer {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    text-align: center;
+}
