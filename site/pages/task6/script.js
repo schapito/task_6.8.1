@@ -6,12 +6,12 @@ function makeGreen() { //объявляю функцию "makeGreen"
     trafficLight1.style.background = ('green'); //переменная trafficLight1 со свойством style.background  задает цвет фона зеленым//
     trafficLight2.style.background = ('black'); //переменная trafficLight2 со свойством style.background  задает цвет фона черным//
     trafficLight3.style.background = ('black'); //переменная trafficLight3 со свойством style.background  задает цвет фона черным//
-    trafficLight1.removeEventListener('click', makeGreen); //следующий шаг - удалить событие по клику функцию "makeGreen"//
-    trafficLight2.removeEventListener('click', makeGreen);
-    trafficLight3.removeEventListener('click', makeGreen);
-    trafficLight1.addEventListener('click', makeYellow);
-    trafficLight2.addEventListener('click', makeYellow);
-    trafficLight3.addEventListener('click', makeYellow);
+    trafficLight1.removeEventListener('click', makeGreen); //следующий шаг - удалить событие по клику функцию "makeGreen" c trafficLight1//
+    trafficLight2.removeEventListener('click', makeGreen); //следующий шаг - удалить событие по клику функцию "makeGreen" c trafficLight2//
+    trafficLight3.removeEventListener('click', makeGreen); //следующий шаг - удалить событие по клику функцию "makeGreen" c trafficLight3//
+    trafficLight1.addEventListener('click', makeYellow); //следующий шаг - событие по клику вызвать функцию "makeYellow" в контейнере trafficLight1// 
+    trafficLight2.addEventListener('click', makeYellow); //следующий шаг - событие по клику вызвать функцию "makeYellow" в контейнере trafficLight2// 
+    trafficLight3.addEventListener('click', makeYellow); //следующий шаг - событие по клику вызвать функцию "makeYellow" в контейнере trafficLight3// 
 }
 
 function makeYellow() { //объявляю функцию "makeYellow"
